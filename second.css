@@ -1,0 +1,259 @@
+.second-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  /* background-color: purple; */
+  /* overflow: hidden; */
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+
+.box {
+  max-width: 80%;
+}
+.box-inner {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+}
+.box[data-animated="true"] {
+  /* border: 5px solid rgb(0, 0, 0); */
+  max-width: 80%;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+
+}
+.box[data-animated="true"] .box-inner{
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll 15s infinite;
+}
+
+@keyframes scroll {
+  to{
+    transform: translate(calc(-50% - 0.5rem));
+  }
+  
+}
+.vertical {
+  margin-left: 6vh; 
+}
+/* .second-section .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background: black;
+  margin: 56px 0px;
+  margin-left: -110px;
+  height: 2px;
+  top: -70px;
+  left: 55vh;
+}
+.second-section .vertical {
+  position: relative;
+  height: 20px;
+  background: black;
+  width: 3px;
+  margin: 0px 100px;
+} */
+
+.image-html {
+  width: 80px;
+  position: relative;
+  top: 30px;
+  right: 37px;
+}
+.image-css {
+  width: 80px;
+  position: relative;
+  top: 30px;
+  right: 37px;
+}
+.image-javascript {
+  width: 80px;
+  position: relative;
+  top: 30px;
+  right: 37px;
+}
+.image-python {
+  width: 80px;
+  position: relative;
+  top: 30px;
+  right: 70px;
+}
+.image-mongodb {
+  width: 180px;
+  position: relative;
+  top: 40px;
+  right: 97px;
+}
+.image-react {
+  width: 90px;
+  position: relative;
+  top: 32px;
+  right: 41px;
+}
+.html-title {
+  position: relative;
+  top: 15px;
+  right: 20px;
+}
+.css-title {
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+.javascript-title {
+  position: relative;
+  top: 15px;
+  right: 36px;
+}
+.reactjs-title {
+  position: relative;
+  top: 15px;
+  right: 25px;
+}
+.python-title {
+  position: relative;
+  top: 8px;
+  right: 58px;
+}
+.mongodb-title {
+  position: relative;
+  top: 35px;
+  right: 39px;
+}
+
+.second-sectionText {
+  /* background-color: red; */
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top: -6vh;
+  margin-right: 5vh;
+  left: 5vh;
+  font-size: 25px;
+  color: grey;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .second-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    /* background-color: purple; */
+    overflow: hidden;
+    padding-left: 0px;
+  }
+
+  .box {
+    max-width: 80%;
+  }
+  .box-inner {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+  }
+  .box[data-animated="true"] {
+    /* border: 5px solid rgb(0, 0, 0); */
+    max-width: 80%;
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  
+  }
+  .box[data-animated="true"] .box-inner{
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 15s infinite;
+  }
+  
+  @keyframes scroll {
+    to{
+      transform: translate(calc(-50% - 0.5rem));
+    }
+    
+  }
+  .vertical {
+    margin-left: 6vh; 
+  }
+  .second-sectionText {
+    position: relative;
+    top: -6vh;
+    left: -11vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 70px;
+    font-size: 25px;
+    color: grey;
+  }
+}
+
+
+@media screen and (min-width: 1025px) {
+
+  .second-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    /* background-color: purple; */
+    overflow: hidden;
+    padding-left: 0px;
+  }
+  .second-sectionText {
+    
+    position: relative;
+    top: -5vh;
+    left: -23vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 70px;
+    font-size: 35px;
+    color: grey;
+  }
+  .box {
+    max-width: 80%;
+  }
+  .box-inner {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+  }
+  .box[data-animated="true"] {
+    /* border: 5px solid rgb(0, 0, 0); */
+    max-width: 80%;
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  
+  }
+  .box[data-animated="true"] .box-inner{
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 15s normal infinite;
+  }
+  
+  @keyframes scroll {
+    to{
+      transform: translate(calc(-50% - 0.5rem));
+    }
+    
+  }
+  .vertical {
+    margin-left: 6vh; 
+  }
+}

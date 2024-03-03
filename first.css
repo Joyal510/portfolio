@@ -1,0 +1,126 @@
+.first-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* top: 100px;  */
+  left: 0px;
+  bottom: 0px;
+  height: 60vh;
+  width: 100%;
+  gap: 1.5rem;
+  /* background-color: red; */
+}
+
+.leftbox {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  /* background-color: rgb(0, 0, 0); */
+}
+.rightbox {
+  position: relative;
+  height: 200px;
+  width: 230px;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+.rightbox img {
+  display: block;
+  position: relative;
+  left: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.containsText {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+#element {
+  color: rgb(236, 48, 236);
+  font-size: 45px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .first-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    height: 350px;
+    width: 300px;
+    /* background-color: rgb(0, 0, 0); */
+  }
+  .rightbox {
+    position: relative;
+    top: 30px;
+    height: 300px;
+    width: 300px;
+    /* background-color: rgb(0, 0, 0); */
+  }
+
+  .rightbox img {
+    position: relative;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .first-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 80vh;
+  }
+
+  .leftbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: -60px;
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(0, 0, 0); */
+    
+  }
+  .rightbox {
+    position: relative;
+    top: 50px;
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(0, 0, 0); */
+  }
+  .rightbox img {
+    position: relative;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .containsText {
+    color: rgb(0, 0, 0);
+    font-size: 52px;
+  }
+}

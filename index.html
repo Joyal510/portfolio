@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="first.css" />
+    <link rel="stylesheet" href="second.css" />
+    <link rel="stylesheet" href="third.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio 1</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <nav>
+          <div class="left">Joyal's Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Projects</a></li>
+              <li><a href="/">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="first-section">
+      <div class="leftbox">
+        <div class="containsText">
+          Hello. <br />I'm <span class="purple">Joyal Corda</span> and <br />I
+          am a passionate <br />
+          <span id="element"></span>
+        </div>
+      </div>
+      <div class="rightbox">
+        <img src="./images/developer.png" />
+      </div>
+    </section>
+
+    <section class="second-section">
+      <label class="second-sectionText"
+        >I have a basic knowledge on few these skills</label
+      >
+
+      <div class="box" data-animated="true">
+        <div class="box-inner">
+          <div class="vertical">
+            <img class="image-html" id="html" src="./images/html1.png" />
+            <div class="html-title"><h3>HTML</h3></div>
+          </div>
+          <div class="vertical">
+            <img class="image-css" id="css" src="./images/css1.png" />
+            <div class="css-title"><h3>CSS</h3></div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-javascript"
+              id="JavaScript"
+              src="./images/javascript1.png"
+            />
+            <div class="javascript-title"><h3>JavaScript</h3></div>
+          </div>
+          <div class="vertical">
+            <img class="image-react" id="reactjs" src="./images/react1.png" />
+            <div class="reactjs-title"><h3>ReactJs</h3></div>
+          </div>
+          <div class="vertical">
+            <img class="image-python" id="python" src="./images/python1.png" />
+            <div class="python-title"><h3>Python</h3></div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-mongodb"
+              id="mongodb"
+              src="./images/mongodb1.png"
+            />
+            <div class="mongodb-title"><h3>MongoDB</h3></div>
+          </div>
+
+          <!-- ============================== -->
+          <div class="vertical">
+            <img class="image-html" id="html" src="./images/html1.png" />
+            <div class="html-title"><h3>HTML</h3></div>
+          </div>
+          <div class="vertical">
+            <img class="image-css" id="css" src="./images/css1.png" />
+            <div class="css-title"><h3>CSS</h3></div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-javascript"
+              id="JavaScript"
+              src="./images/javascript1.png"
+            />
+            <div class="javascript-title"><h3>JavaScript</h3></div>
+          </div>
+          <div class="vertical">
+            <img class="image-react" id="reactjs" src="./images/react1.png" />
+            <div class="reactjs-title"><h3>ReactJs</h3></div>
+          </div>
+          <div class="vertical">
+            <img class="image-python" id="python" src="./images/python1.png" />
+            <div class="python-title"><h3>Python</h3></div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-mongodb"
+              id="mongodb"
+              src="./images/mongodb1.png"
+            />
+            <div class="mongodb-title"><h3>MongoDB</h3></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-section">
+      <div class="third-sectionText">
+        <label>Here are few of the projects I've made</label>
+      </div>
+      <div class="flip-card-container">
+        <div class="flip-card" id="card1">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="./images/jujutsukaisen.jpg"
+                alt="Avatar"
+                style="max-width: 100%; max-height: 100%"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>NFT Maker</h1>
+              <p>
+                An app developed by python which helps you generate avatar-based
+                pixelated NFT's on a click of a button!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" id="card2">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="./images/moon.jpg"
+                alt="Avatar"
+                style="max-width: 100%; max-height: 100%"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>Todo List</h1>
+              <p>
+                A basic todolist application where you'll be able to keep track
+                of your day-to-day tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" id="card3">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="./images/gohan.jpg"
+                alt="Avatar"
+                style="max-width: 100%; max-height: 100%"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>News Application</h1>
+              <p>
+                News application developed using React.js where all of the news
+                is fetched through an API.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <footer class="footer">
+        <div class="footer-container">
+          <label>Thankyou for viewing my website!</label>
+          <label>You can contact me on</label>
+          <a href="https://www.instagram.com/joyalcorda"><p>Instagram</p></a>
+          <a href="https://twitter.com/j3yal"><p>Twitter</p></a>
+        </div>
+      </footer>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Video Editor,", "Web Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
